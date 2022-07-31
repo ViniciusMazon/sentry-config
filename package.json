@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development ts-node-dev ./src/server.ts"
+    "dev": "NODE_ENV=development ts-node-dev ./src/server.ts",
+    "prod": "NODE_ENV=production ts-node-dev ./src/server.ts"
   },
   "keywords": [],
   "author": "",
